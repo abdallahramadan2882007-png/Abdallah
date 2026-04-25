@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  font-family: Arial;
+  background: #f5f5f5;
+}
+
+nav {
+  background: #ff6347;
+  color: white;
+  padding: 15px;
+}
+
+.contact {
+  text-align: center;
+  padding: 40px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  margin: auto;
+  gap: 10px;
+}
+
+input, textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  background: #ff6347;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #e5533d;
+}
+
+#successMsg {
+  margin-top: 15px;
+  color: green;
+  font-weight: bold;
+}
